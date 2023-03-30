@@ -2,12 +2,12 @@
 
 int main()
 {
-	int a, b, i, h, max=0;
+	int a, b, i, h, max=-1;
 	char static arr[1000000];
 	int alphabet[91];
 	scanf("%s", arr);
 	a = strlen(arr);
-	for (i = 65; i <= 90; i++)
+	for (i = 0; i <= 90; i++)
 	{
 		alphabet[i] = 0;
 	}
@@ -15,23 +15,24 @@ int main()
 	{
 		if (arr[i] >= 97 && arr[i] <= 122)
 		{
-			a = arr[i] - 32;
-			alphabet[a]++;
+			b = arr[i] - 32;
+			alphabet[b]++;
 		}
-		else
+		else if (arr[i] >= 65 && arr[i] <= 90)
 		{
-			a = arr[i];
-			alphabet[a]++;
+			b = arr[i];
+			alphabet[b]++;
 		}
 	}
+
 	for (i = 65; i <= 90; i++)
 	{
 		if (alphabet[i] > max)
 		{
 			max = alphabet[i];
-			a = i;
+			b = i;
 		}
-		else if(alphabet[i] == max) a = 63;
+		else if(alphabet[i] == max) b = 63;
 	}
-	printf("%c", a);
+	printf("%c", b);
 }
