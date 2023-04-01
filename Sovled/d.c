@@ -9,7 +9,7 @@ int main()
 	scanf("%d %d", &n, &m);
 	for (i = 0; i <n; i++)
 	{
-		scanf("%s", arr[i]);
+		scanf(" %s", arr[i]);
 	}
 	for (i = 0; i < n-7; i++) //За
 	{

@@ -39,5 +39,8 @@
     <ClCompile Include="gtp.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="M1018.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
