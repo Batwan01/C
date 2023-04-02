@@ -27,19 +27,31 @@
     <ClCompile Include="M2741.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2577.c">
+    <ClCompile Include="M2577.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="M1018%28fail%29.c">
+    <ClCompile Include="M1018%283%29.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="d.c">
+    <ClCompile Include="M1085%282%29.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="gtp.c">
+    <ClCompile Include="M1085%28gpt%29.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="M1018.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="M1085%281%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="M1259.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="M1811.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="M1811-1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

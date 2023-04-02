@@ -4,7 +4,7 @@ int main()
 {
 	int i = 0, j = 0, h = 0, k = 0, m, n, num = 0, max=0, p=0, p1=1;
 	char answer_w[8][8], answer_b[8][8];
-	char arr[50][50];
+	char arr[500][500];
 	int  count[2][100] = { 0, };
 	for (i = 0; i < 8; i++)
 	{
