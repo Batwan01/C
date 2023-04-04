@@ -48,13 +48,16 @@
     <ClCompile Include="M1259.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="M1811.c">
+    <ClCompile Include="M1811%28imcomplete.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="M1811-1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="M1811Refer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="M1978.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
