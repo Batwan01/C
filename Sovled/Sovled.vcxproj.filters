@@ -60,5 +60,8 @@
     <ClCompile Include="M1978.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="M2609.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
