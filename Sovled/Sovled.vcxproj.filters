@@ -69,5 +69,11 @@
     <ClCompile Include="M1929.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="M4153.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="M9012.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
