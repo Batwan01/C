@@ -97,4 +97,31 @@ void freeGraph(Graph* graph) {
     for (int i = 0; i <= graph->numVertices; i++) {
         Node* temp = graph->adjLists[i];
         while (temp != NULL) {
-            Node*
+            Node* prev = temp;
+            temp = temp->next;
+            free(prev);
+        }
+    }
+    free(graph->adjLists);
+    free(graph->inDegree);
+    free(graph);
+}
+
+int main() {
+    int N;
+    scanf("%d", &N);
+
+    Graph* graph = createGraph(N);
+
+    for (int i = 1; i <= N; i++) {
+        int supervisor;
+        scanf("%d", &supervisor);
+        addEdge(graph, supervisor, i);
+    }
+
+    findMaxEmployeesToFire(graph, N);
+
+    freeGraph(graph);
+
+    return 0;
+}
