@@ -36,13 +36,13 @@ void addEdge(Graph* graph, int src, int dest) {
 }
 
 void findMaxEmployeesToFire(Graph* graph, int numVertices) {
-    int* order = (int*)malloc((numVertices + 1) * sizeof(int));
+    int* order = (int*)malloc((numVertices) * sizeof(int));
     int total_time = 0;
     int max_employees_to_fire = 0;
     int* inDegree = graph->inDegree;
 
     // Find the lowest-level employees
-    int* lowest_level = (int*)malloc((numVertices + 1) * sizeof(int));
+    int* lowest_level = (int*)malloc((numVertices) * sizeof(int));
     int front = 0;
     int rear = 0;
     for (int i = 1; i <= numVertices; i++) {
@@ -91,6 +91,9 @@ void findMaxEmployeesToFire(Graph* graph, int numVertices) {
 
     printf("%d\n", total_time);
     printf("%d\n", max_employees_to_fire);
+
+    free(order);
+    free(lowest_level);
 }
 
 void freeGraph(Graph* graph) {

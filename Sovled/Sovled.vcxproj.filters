@@ -78,5 +78,8 @@
     <ClCompile Include="M2221.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="heart.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
